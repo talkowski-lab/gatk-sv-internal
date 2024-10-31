@@ -1,0 +1,15 @@
+{
+  "MosaicManualCheck.rare_cutoff":2,
+  "MosaicManualCheck.outlier": "gs://gatk-sv-resources/resources/outlier.txt",
+  "MosaicManualCheck.fam_file": "gs://gcp-public-data--broad-references/hg38/v0/sv-resources/ref-panel/1KG/v1/ped/1kg_ref_panel_v1.ped",
+  "MosaicManualCheck.sv_pipeline_docker": "us.gcr.io/broad-dsde-methods/gatk-sv/sv-pipeline:2024-10-29-v0.29-beta-d532812a",
+  "MosaicManualCheck.sv_base_mini_docker": "us.gcr.io/broad-dsde-methods/gatk-sv/sv-base-mini:2024-10-25-v0.29-beta-5ea22a52",
+  "MosaicManualCheck.agg_metrics": ["gs://gatk-sv-ref-panel-1kg/outputs/GATKSVPipelineBatch/38c65ca4-2a07-4805-86b6-214696075fef/call-GATKSVPipelinePhase1/GATKSVPipelinePhase1/acce2c71-7458-4205-ae13-624f6efc9956/call-GenerateBatchMetrics/GenerateBatchMetrics/8590823d-8c71-4378-9533-7a834062be71/call-AggregateCallers/cacheCopy/ref_panel_1kg.metrics"],
+  "MosaicManualCheck.per_batch_clustered_pesr_vcf_list": ["gs://gatk-sv-resources/test/mosaic/pesr_list.txt"],
+  "MosaicManualCheck.clustered_depth_vcfs": ["gs://gatk-sv-ref-panel-1kg/outputs/GATKSVPipelineBatch/38c65ca4-2a07-4805-86b6-214696075fef/call-GATKSVPipelinePhase1/GATKSVPipelinePhase1/acce2c71-7458-4205-ae13-624f6efc9956/call-ClusterBatch/ClusterBatch/52feaa2f-66f2-457f-93d9-8967bc4cba83/call-ClusterDepth/ClusterDepth/5ee72403-7739-438a-87cd-dfc657cad2ea/call-MakeDepthVCF/cacheCopy/ref_panel_1kg.depth.vcf.gz"],
+  "MosaicManualCheck.prefix": "ref_panel_1kg",
+  "MosaicManualCheck.RF_cutoffs": ["gs://gatk-sv-ref-panel-1kg/outputs/GATKSVPipelineBatch/38c65ca4-2a07-4805-86b6-214696075fef/call-GATKSVPipelinePhase1/GATKSVPipelinePhase1/acce2c71-7458-4205-ae13-624f6efc9956/call-FilterBatch/FilterBatch/184defa3-e61c-4757-9962-f685f6d0d204/call-FilterBatchSites/FilterBatchSites/13801c7d-9478-40dc-9a4a-2e80cbab1136/call-AdjudicateSV/cacheCopy/ref_panel_1kg.cutoffs"],
+  "MosaicManualCheck.coverage_file_idxs": ["gs://gatk-sv-ref-panel-1kg/outputs/GATKSVPipelineBatch/38c65ca4-2a07-4805-86b6-214696075fef/call-EvidenceQC/EvidenceQC/f7f8f407-0a3c-4c3d-982f-7bd181ac965a/call-MakeBincovMatrix/MakeBincovMatrix/0106cefa-5ebf-4131-9073-15413bf93a83/call-ZPaste/cacheCopy/ref_panel_1kg.RD.txt.gz.tbi"],
+  "MosaicManualCheck.coverage_files": ["gs://gatk-sv-ref-panel-1kg/outputs/GATKSVPipelineBatch/38c65ca4-2a07-4805-86b6-214696075fef/call-EvidenceQC/EvidenceQC/f7f8f407-0a3c-4c3d-982f-7bd181ac965a/call-MakeBincovMatrix/MakeBincovMatrix/0106cefa-5ebf-4131-9073-15413bf93a83/call-ZPaste/cacheCopy/ref_panel_1kg.RD.txt.gz"],
+  "MosaicManualCheck.median_files": ["gs://gatk-sv-ref-panel-1kg/outputs/GATKSVPipelineBatch/38c65ca4-2a07-4805-86b6-214696075fef/call-GATKSVPipelinePhase1/GATKSVPipelinePhase1/acce2c71-7458-4205-ae13-624f6efc9956/call-GatherBatchEvidence/GatherBatchEvidence/366e817a-feb2-4d3c-915c-a8bd25529b81/call-MedianCov/MedianCov/8ad48479-2e16-4be9-add6-1b47dbd9d95c/call-CalcMedCov/cacheCopy/ref_panel_1kg_medianCov.transposed.bed"]
+}

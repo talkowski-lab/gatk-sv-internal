@@ -1,0 +1,7 @@
+{
+  "SubsetVcfBySamples.vcf" :   "gs://gatk-sv-ref-panel-1kg/outputs/eph-refine-cpx/ref_panel_1kg.cleaned.vcf.gz",
+
+  "SubsetVcfBySamples.sv_base_mini_docker":"us.gcr.io/broad-dsde-methods/gatk-sv/sv-base-mini:2024-10-25-v0.29-beta-5ea22a52",
+
+  "SubsetVcfBySamples.list_of_samples": "gs://gatk-sv-ref-panel-1kg/test_inputs/ref_panel_1kg_subset_10_samples.txt"
+}
