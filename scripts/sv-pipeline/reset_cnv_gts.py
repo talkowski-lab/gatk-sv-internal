@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 #
 
+# Hail and and its dependencies were included in GATK-SV docker images until version v1.0.3.
+# To run this code, please make sure you're using a Docker images that has Hail and all its dependencies installed.
+
 """
 Sets CNV GT fields to "."
 This is needed following any HailMerge step for VCFs containing CNVs
