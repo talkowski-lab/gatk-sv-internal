@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+*.pyc
+**.egg-info/
+**__py_cache/
+.tox/
+/inputs/build/
+/inputs/values/google_cloud.*.json
